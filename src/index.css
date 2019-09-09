@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 :root {
   font: 16px / 1 sans-serif;
 }
@@ -9,4 +11,87 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.title {
+  color: teal;
+  font-size: 30px;
+}
+
+.logo {
+  width: 20rem;
+}
+
+.directory-item {
+  padding: 0.5rem;
+}
+
+.direct-item {
+  text-decoration: none;
+  color: inherit;
+}
+
+.direct-item:hover {
+  color: turquoise;
+}
+
+.direct {
+  color: teal;
+}
+
+.list {
+  padding-right: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-content: center;
+}
+
+.menu {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-link:hover {
+  color: turquoise;
+}
+
+.menu-item {
+  padding: 1rem;
+}
+
+.add {
+  padding: 1rem;
+}
+
+.form {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.employee-data {
+  margin-bottom: 10rem;
+}
+
+.footer {
+  background-color: whitesmoke;
+  padding: 1rem;
+  margin-top: 2rem;
 }
